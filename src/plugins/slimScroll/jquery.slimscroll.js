@@ -278,7 +278,7 @@
         });
 
         me.bind('touchmove', function(e){
-          // prevent scrolling the page if necessary
+          // prevent scrolling the pages if necessary
           if(!releaseScroll)
           {
   		      e.originalEvent.preventDefault();

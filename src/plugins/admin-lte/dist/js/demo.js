@@ -29,6 +29,8 @@
   ];
 
   AdminLTE.installDemo = function() {
+    console.log("AdminLTE.installDemo");
+
     //Create the new tab
     var tab_pane = $("<div />", {
       "id": "control-sidebar-theme-demo-options-tab",
@@ -212,7 +214,6 @@
     $("#control-sidebar-home-tab").after(tab_pane);
 
     setup();
-    console.log('AdminLTE.installDemo ok');
   }
 
   /**

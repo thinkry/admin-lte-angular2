@@ -3,5 +3,11 @@
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
 @import '../node_modules/ionicons/css/ionicons.min.css';
 @import 'plugins/jvectormap/jquery-jvectormap-1.2.2.css';
+@import 'plugins/iCheck/flat/blue.css';
+@import 'plugins/morris/morris.css';
+@import 'plugins/datepicker/datepicker3.css';
+@import 'plugins/daterangepicker/daterangepicker.css';
+@import 'plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css';
+@import 'plugins/datatables/dataTables.bootstrap.css';
 @import 'plugins/admin-lte/dist/css/AdminLTE.min.css';
 @import 'plugins/admin-lte/dist/css/skins/_all-skins.min.css';

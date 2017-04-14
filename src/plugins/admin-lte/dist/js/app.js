@@ -35,7 +35,7 @@ $.AdminLTE = {};
 $.AdminLTE.options = {
   //Add slimscroll to navbar menus
   //This requires you to load the slimscroll plugin
-  //in every page before app.js
+  //in every pages before app.js
   navbarMenuSlimscroll: true,
   navbarMenuSlimscrollWidth: "3px", //The width of the scroll bar
   navbarMenuHeight: "200px", //The height of the inner menu
@@ -142,7 +142,7 @@ $.AdminLTE.options = {
 $(function () {
   "use strict";
 
-  //Fix for IE page transitions
+  //Fix for IE pages transitions
   $("body").removeClass("hold-transition");
 
   //Extend options if external options exist
@@ -434,7 +434,7 @@ function _init() {
             _this.layout.fix();
           });
         }
-        //if this isn't a link, prevent the page from being redirected
+        //if this isn't a link, prevent the pages from being redirected
         if (checkElement.is('.treeview-menu')) {
           e.preventDefault();
         }
@@ -700,6 +700,9 @@ function _init() {
 (function ($) {
 
   'use strict';
+
+  // Resolve conflict in jQuery UI tooltip with Bootstrap tooltip
+  $.widget.bridge('uibutton', $.ui.button);
 
   $.fn.activateBox = function () {
     $.AdminLTE.boxWidget.activate(this);

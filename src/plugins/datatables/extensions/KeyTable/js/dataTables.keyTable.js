@@ -141,8 +141,8 @@ KeyTable = function ( oInit )
 	var _nBody = null;
 
 	/*
-	 * Variable: 
-	 * Purpose:  
+	 * Variable:
+	 * Purpose:
 	 * Scope:    KeyTable - private
 	 */
 	var _nOldFocus = null;
@@ -190,7 +190,7 @@ KeyTable = function ( oInit )
 
 	/*
 	 * Variable: _oDatatable
-	 * Purpose:  DataTables settings object for if we are actually using a 
+	 * Purpose:  DataTables settings object for if we are actually using a
 	 *           DataTables table
 	 * Scope:    KeyTable - private
 	 */
@@ -439,7 +439,7 @@ KeyTable = function ( oInit )
 		$(nTarget).addClass( _sFocusClass );
 		$(nTarget).parent().addClass( _sFocusClass );
 
-		/* If it's a DataTable then we need to jump the paging to the relevant page */
+		/* If it's a DataTable then we need to jump the paging to the relevant pages */
 		var oSettings;
 		if ( _oDatatable )
 		{
@@ -661,7 +661,7 @@ KeyTable = function ( oInit )
 		/* Get table height and width - done here so as to be dynamic (if table is updated) */
 		if ( _oDatatable )
 		{
-			/* 
+			/*
 			 * Locate the current node in the DataTable overriding the old positions - the reason for
 			 * is is that there might have been some DataTables interaction between the last focus and
 			 * now
@@ -722,7 +722,7 @@ KeyTable = function ( oInit )
 						_bInputFocused = true;
 						_nInput.focus();
 
-						/* This timeout is a little nasty - but IE appears to have some asyhnc behaviour for 
+						/* This timeout is a little nasty - but IE appears to have some asyhnc behaviour for
 						 * focus
 						 */
 						setTimeout( function(){ _bInputFocused = false; }, 0 );
@@ -751,7 +751,7 @@ KeyTable = function ( oInit )
 				y = 0;
 				break;
 
-			case 33: /* page up */
+			case 33: /* pages up */
 				x = _iOldX;
 				y = _iOldY - 10;
 				if (y < 0) {
@@ -777,7 +777,7 @@ KeyTable = function ( oInit )
 						_bInputFocused = true;
 						_nInput.focus();
 
-						/* This timeout is a little nasty - but IE appears to have some asyhnc behaviour for 
+						/* This timeout is a little nasty - but IE appears to have some asyhnc behaviour for
 						 * focus
 						 */
 						setTimeout( function(){ _bInputFocused = false; }, 0 );
@@ -806,7 +806,7 @@ KeyTable = function ( oInit )
 				y = iTableHeight-1;
 				break;
 
-			case 34: /* page down */
+			case 34: /* pages down */
 				x = _iOldX;
 				y = _iOldY+10;
 				if (y > iTableHeight-1) {
@@ -939,7 +939,7 @@ KeyTable = function ( oInit )
 
 	/*
 	 * Function: _fnGetPos
-	 * Purpose:  Get the position of an object on the rendered page
+	 * Purpose:  Get the position of an object on the rendered pages
 	 * Returns:  array[2] int: [left, right]
 	 * Inputs:   node:obj - element of interest
 	 */
