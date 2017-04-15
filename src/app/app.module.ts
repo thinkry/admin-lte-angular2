@@ -20,12 +20,6 @@ import { ChartjsComponent } from './pages/charts/chartjs.component';
 import { FlotComponent } from './pages/charts/flot.component';
 import { InlineComponent } from './pages/charts/inline.component';
 import { MorrisComponent } from './pages/charts/morris.component';
-import { ButtonsComponent } from './pages/ui/buttons.component';
-import { GeneralComponent } from './pages/ui/general.component';
-import { IconsComponent } from './pages/ui/icons.component';
-import { ModalsComponent } from './pages/ui/modals.component';
-import { SlidersComponent } from './pages/ui/sliders.component';
-import { TimelineComponent } from './pages/ui/timeline.component';
 import { AdvancedComponent } from './pages/forms/advanced.component';
 import { EditorsComponent } from './pages/forms/editors.component';
 import { GeneralComponent as FormGeneralComponent } from './pages/forms/general.component';
@@ -61,12 +55,6 @@ import { RegisterComponent } from './pages/examples/register.component';
     FlotComponent,
     InlineComponent,
     MorrisComponent,
-    ButtonsComponent,
-    GeneralComponent,
-    IconsComponent,
-    ModalsComponent,
-    SlidersComponent,
-    TimelineComponent,
     AdvancedComponent,
     EditorsComponent,
     FormGeneralComponent,

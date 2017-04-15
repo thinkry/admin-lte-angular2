@@ -14,15 +14,9 @@ import {ChartjsComponent} from "./pages/charts/chartjs.component";
 import {FlotComponent} from "./pages/charts/flot.component";
 import {InlineComponent} from "./pages/charts/inline.component";
 import {MorrisComponent} from "./pages/charts/morris.component";
-import {ButtonsComponent} from "./pages/ui/buttons.component";
-import {GeneralComponent} from "./pages/ui/general.component";
-import {IconsComponent} from "./pages/ui/icons.component";
-import {ModalsComponent} from "./pages/ui/modals.component";
-import {SlidersComponent} from "./pages/ui/sliders.component";
-import {TimelineComponent} from "./pages/ui/timeline.component";
 import {AdvancedComponent} from "./pages/forms/advanced.component";
 import {EditorsComponent} from "./pages/forms/editors.component";
-import { GeneralComponent as FormGeneralComponent } from './pages/forms/general.component';
+import {GeneralComponent as FormGeneralComponent} from './pages/forms/general.component';
 import {CalendarComponent} from "./pages/calendar.component";
 import {MailboxComponent} from "./pages/mailbox/mailbox.component";
 import {ComposeComponent} from "./pages/mailbox/compose.component";
@@ -92,28 +86,8 @@ const routes: Routes = [
         component: MorrisComponent
       },
       {
-        path: 'ui/buttons',
-        component: ButtonsComponent
-      },
-      {
-        path: 'ui/general',
-        component: GeneralComponent
-      },
-      {
-        path: 'ui/icons',
-        component: IconsComponent
-      },
-      {
-        path: 'ui/modals',
-        component: ModalsComponent
-      },
-      {
-        path: 'ui/sliders',
-        component: SlidersComponent
-      },
-      {
-        path: 'ui/timeline',
-        component: TimelineComponent
+        path: 'ui',
+        loadChildren: './ui/ui.module#UiModule'
       },
       {
         path: 'forms/advanced',
