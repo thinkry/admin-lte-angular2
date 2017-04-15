@@ -1,6 +1,6 @@
 # AdminLTE Angular2
 
-[AdminLTE](https://github.com/almasaeed2010/AdminLTE)是一个挺不错的基于Bootstrap 3.x的管理系统。[预览在线效果](https://almsaeedstudio.com/themes/AdminLTE/)
+[AdminLTE](https://github.com/almasaeed2010/AdminLTE)是一个挺不错的基于Bootstrap 3.x的管理系统。[在线预览](https://almsaeedstudio.com/themes/AdminLTE/)
 
 !["AdminLTE Presentation"](https://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
 
@@ -16,7 +16,7 @@ cnpm install -g @angular/cli@1.0.0-rc.1
 
 ### 1.2 clone项目
 ```bash
-git clone https://github.com/thinkry/admin-lte-angular2
+git clone https://github.com/thinkry/admin-lte-angular2.git
 ```
 
 ### 1.3 安装并编译运行
@@ -27,6 +27,9 @@ npm start
 ```
 在浏览器访问 http://localhost:4200 就能看到效果了
 
+  
+  
+  
 ## 2 一些经验
 
 ### 2.1 在Angular2项目中使用js库的方法
