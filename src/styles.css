@@ -9,5 +9,10 @@
 @import 'plugins/daterangepicker/daterangepicker.css';
 @import 'plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css';
 @import 'plugins/datatables/dataTables.bootstrap.css';
+
+@import 'plugins/ionslider/ion.rangeSlider.css';
+@import 'plugins/ionslider/ion.rangeSlider.skinNice.css';
+@import 'plugins/bootstrap-slider/slider.css';
+
 @import 'plugins/admin-lte/dist/css/AdminLTE.min.css';
 @import 'plugins/admin-lte/dist/css/skins/_all-skins.min.css';

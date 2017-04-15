@@ -37,18 +37,33 @@
 
         "plugins/raphael/raphael-min.js",
         "plugins/morris/morris.min.js",
+        "plugins/chartjs/Chart.min.js",
+
+        "plugins/flot/jquery.flot.min.js",
+        "plugins/flot/jquery.flot.resize.min.js",
+        "plugins/flot/jquery.flot.pie.min.js",
+        "plugins/flot/jquery.flot.categories.min.js",
+
         "plugins/moment/moment.min.js",
 
         "plugins/daterangepicker/daterangepicker.js",
         "plugins/datepicker/bootstrap-datepicker.js",
         "plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js",
-        "plugins/chartjs/Chart.min.js",
         "plugins/knob/jquery.knob.js",
 
         "plugins/admin-lte/dist/js/app.js",
+        "plugins/admin-lte/dist/js/demo.js",
         "plugins/admin-lte/dist/js/pages/dashboard.js",
         "plugins/admin-lte/dist/js/pages/dashboard2.js",
-        "plugins/admin-lte/dist/js/demo.js"
+        "plugins/admin-lte/dist/js/pages/chartjs.js",
+        "plugins/admin-lte/dist/js/pages/flot.js",
+        "plugins/admin-lte/dist/js/pages/inline.js",
+        "plugins/admin-lte/dist/js/pages/morris.js",
+
+        "plugins/ionslider/ion.rangeSlider.min.js",
+        "plugins/bootstrap-slider/bootstrap-slider.js",
+
+        "plugins/admin-lte/dist/js/pages/sliders.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
