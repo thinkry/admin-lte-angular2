@@ -739,7 +739,7 @@ ColReorder.prototype = {
 		this.s.dt.oInstance.oApi._fnSaveState( this.s.dt );
 
 		this._fnSetColumnIndexes();
-
+		
 		if ( this.s.reorderCallback !== null )
 		{
 			this.s.reorderCallback.call( this );
@@ -1034,7 +1034,7 @@ ColReorder.prototype = {
 
 	/**
 	 * Copy the TH element that is being drags so the user has the idea that they are actually
-	 * moving it around the pages.
+	 * moving it around the page.
 	 *  @method  _fnCreateDragNode
 	 *  @returns void
 	 *  @private

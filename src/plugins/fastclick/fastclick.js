@@ -410,7 +410,7 @@
 			if (!deviceIsIOS4) {
 
 				// Weird things happen on iOS when an alert or confirm dialog is opened from a click event callback (issue #23):
-				// when the user next taps anywhere else on the pages, new touchstart and touchend events are dispatched
+				// when the user next taps anywhere else on the page, new touchstart and touchend events are dispatched
 				// with the same identifier as the touch event that previously triggered the click that triggered the alert.
 				// Sadly, there is an issue on iOS 4 that causes some normal touch events to have the same identifier as an
 				// immediately preceeding touch event (issue #52), so this fix is unavailable on that platform.

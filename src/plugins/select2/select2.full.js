@@ -473,7 +473,7 @@ S2.define('jquery',[],function () {
     console.error(
       'Select2: An instance of jQuery or a jQuery-compatible library was not ' +
       'found. Make sure that you are including jQuery before Select2 on your ' +
-      'web pages.'
+      'web page.'
     );
   }
 
@@ -6179,9 +6179,9 @@ S2.define('select2/selection/stopPropagation',[
             } else {
                 this.onmousewheel = handler;
             }
-            // Store the line height and pages height for this particular element
+            // Store the line height and page height for this particular element
             $.data(this, 'mousewheel-line-height', special.getLineHeight(this));
-            $.data(this, 'mousewheel-pages-height', special.getPageHeight(this));
+            $.data(this, 'mousewheel-page-height', special.getPageHeight(this));
         },
 
         teardown: function() {
@@ -6194,7 +6194,7 @@ S2.define('select2/selection/stopPropagation',[
             }
             // Clean up the data we added to the element
             $.removeData(this, 'mousewheel-line-height');
-            $.removeData(this, 'mousewheel-pages-height');
+            $.removeData(this, 'mousewheel-page-height');
         },
 
         getLineHeight: function(elem) {
@@ -6278,7 +6278,7 @@ S2.define('select2/selection/stopPropagation',[
             deltaY *= lineHeight;
             deltaX *= lineHeight;
         } else if ( orgEvent.deltaMode === 2 ) {
-            var pageHeight = $.data(this, 'mousewheel-pages-height');
+            var pageHeight = $.data(this, 'mousewheel-page-height');
             delta  *= pageHeight;
             deltaY *= pageHeight;
             deltaX *= pageHeight;

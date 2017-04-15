@@ -573,7 +573,7 @@ Responsive.prototype = {
 				break;
 			}
 		}
-
+		
 		// Show the columns for that break point
 		var columnsVis = this._columnsVisiblity( breakpoint );
 
@@ -599,7 +599,7 @@ Responsive.prototype = {
 	/**
 	 * Determine the width of each column in the table so the auto column hiding
 	 * has that information to work with. This method is never going to be 100%
-	 * perfect since column widths can change slightly per pages, but without
+	 * perfect since column widths can change slightly per page, but without
 	 * seriously compromising performance this is quite effective.
 	 *
 	 * @private
@@ -633,7 +633,7 @@ Responsive.prototype = {
 		// includes all columns. As such, try to do this as little as possible.
 		dt.rows( { page: 'current' } ).indexes().flatten().each( function ( idx ) {
 			var clone = dt.row( idx ).node().cloneNode( true );
-
+			
 			if ( dt.columns( ':hidden' ).flatten().length ) {
 				$(clone).append( dt.cells( idx, ':hidden' ).nodes().to$().clone() );
 			}
