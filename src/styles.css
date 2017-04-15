@@ -25,5 +25,10 @@
 @import 'plugins/timepicker/bootstrap-timepicker.min.css';
 @import 'plugins/select2/select2.min.css';
 
+@import 'plugins/fullcalendar/fullcalendar.min.css';
+@import 'plugins/fullcalendar/fullcalendar.print.css';
+
+@import 'plugins/pace/pace.min.css';
+
 @import 'plugins/admin-lte/dist/css/AdminLTE.min.css';
 @import 'plugins/admin-lte/dist/css/skins/_all-skins.min.css';

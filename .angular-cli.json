@@ -62,6 +62,9 @@
         "plugins/timepicker/bootstrap-timepicker.min.js",
         "plugins/iCheck/icheck.min.js",
 
+        "plugins/fullcalendar/fullcalendar.min.js",
+        "plugins/pace/pace.min.js",
+
         "plugins/admin-lte/dist/js/app.js",
         "plugins/admin-lte/dist/js/demo.js",
         "plugins/admin-lte/dist/js/pages/dashboard.js",
@@ -70,8 +73,8 @@
         "plugins/admin-lte/dist/js/pages/flot.js",
         "plugins/admin-lte/dist/js/pages/inline.js",
         "plugins/admin-lte/dist/js/pages/morris.js",
-
-        "plugins/admin-lte/dist/js/pages/sliders.js"
+        "plugins/admin-lte/dist/js/pages/sliders.js",
+        "plugins/admin-lte/dist/js/pages/calendar.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

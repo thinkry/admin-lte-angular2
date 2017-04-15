@@ -29,6 +29,20 @@ import { TimelineComponent } from './pages/ui/timeline.component';
 import { AdvancedComponent } from './pages/forms/advanced.component';
 import { EditorsComponent } from './pages/forms/editors.component';
 import { GeneralComponent as FormGeneralComponent } from './pages/forms/general.component';
+import { CalendarComponent } from './pages/calendar.component';
+import { MailboxComponent } from './pages/mailbox/mailbox.component';
+import { ComposeComponent } from './pages/mailbox/compose.component';
+import { ReadMailComponent } from './pages/mailbox/read-mail.component';
+import { E404Component } from './pages/examples/e404.component';
+import { E500Component } from './pages/examples/e500.component';
+import { BlankComponent } from './pages/examples/blank.component';
+import { InvoicePrintComponent } from './pages/examples/invoice-print.component';
+import { InvoiceComponent } from './pages/examples/invoice.component';
+import { LockscreenComponent } from './pages/examples/lockscreen.component';
+import { LoginComponent } from './pages/examples/login.component';
+import { PaceComponent } from './pages/examples/pace.component';
+import { ProfileComponent } from './pages/examples/profile.component';
+import { RegisterComponent } from './pages/examples/register.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +69,21 @@ import { GeneralComponent as FormGeneralComponent } from './pages/forms/general.
     TimelineComponent,
     AdvancedComponent,
     EditorsComponent,
-    FormGeneralComponent
+    FormGeneralComponent,
+    CalendarComponent,
+    MailboxComponent,
+    ComposeComponent,
+    ReadMailComponent,
+    E404Component,
+    E500Component,
+    BlankComponent,
+    InvoicePrintComponent,
+    InvoiceComponent,
+    LockscreenComponent,
+    LoginComponent,
+    PaceComponent,
+    ProfileComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

@@ -29,7 +29,6 @@
   ];
 
   AdminLTE.installDemo = function() {
-    console.log("AdminLTE.installDemo");
 
     //Create the new tab
     var tab_pane = $("<div />", {

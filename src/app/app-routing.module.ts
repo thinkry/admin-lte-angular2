@@ -23,6 +23,20 @@ import {TimelineComponent} from "./pages/ui/timeline.component";
 import {AdvancedComponent} from "./pages/forms/advanced.component";
 import {EditorsComponent} from "./pages/forms/editors.component";
 import { GeneralComponent as FormGeneralComponent } from './pages/forms/general.component';
+import {CalendarComponent} from "./pages/calendar.component";
+import {MailboxComponent} from "./pages/mailbox/mailbox.component";
+import {ComposeComponent} from "./pages/mailbox/compose.component";
+import {ReadMailComponent} from "./pages/mailbox/read-mail.component";
+import {E404Component} from "./pages/examples/e404.component";
+import {E500Component} from "./pages/examples/e500.component";
+import {BlankComponent} from "./pages/examples/blank.component";
+import {InvoiceComponent} from "./pages/examples/invoice.component";
+import {InvoicePrintComponent} from "./pages/examples/invoice-print.component";
+import {LockscreenComponent} from "./pages/examples/lockscreen.component";
+import {LoginComponent} from "./pages/examples/login.component";
+import {RegisterComponent} from "./pages/examples/register.component";
+import {PaceComponent} from "./pages/examples/pace.component";
+import {ProfileComponent} from "./pages/examples/profile.component";
 
 const routes: Routes = [
   {
@@ -120,8 +134,64 @@ const routes: Routes = [
       {
         path: 'tables/data',
         component: DataComponent
+      },
+      {
+        path: 'calendar',
+        component: CalendarComponent
+      },
+      {
+        path: 'mailbox/mailbox',
+        component: MailboxComponent
+      },
+      {
+        path: 'mailbox/compose',
+        component: ComposeComponent
+      },
+      {
+        path: 'mailbox/read-mail',
+        component: ReadMailComponent
+      },
+      {
+        path: 'examples/e404',
+        component: E404Component
+      },
+      {
+        path: 'examples/e500',
+        component: E500Component
+      },
+      {
+        path: 'examples/blank',
+        component: BlankComponent
+      },
+      {
+        path: 'examples/invoice',
+        component: InvoiceComponent
+      },
+      {
+        path: 'examples/pace',
+        component: PaceComponent
+      },
+      {
+        path: 'examples/profile',
+        component: ProfileComponent
       }
     ]
+  },
+  {
+    path: 'examples/invoice-print',
+    component: InvoicePrintComponent
+  },
+  {
+    path: 'examples/lockscreen',
+    component: LockscreenComponent
+  },
+  {
+    path: 'examples/login',
+    component: LoginComponent
+  },
+  {
+    path: 'examples/register',
+    component: RegisterComponent
   }
 ];
 

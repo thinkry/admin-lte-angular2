@@ -3,7 +3,6 @@
   'use strict';
 
   AdminLTE.installDashBoard2 = function() {
-    console.log("AdminLTE.installDashBoard2");
 
     /* ChartJS
      * -------
