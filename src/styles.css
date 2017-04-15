@@ -14,5 +14,16 @@
 @import 'plugins/ionslider/ion.rangeSlider.skinNice.css';
 @import 'plugins/bootstrap-slider/slider.css';
 
+@import 'plugins/iCheck/minimal/_all.css';
+@import 'plugins/iCheck/square/_all.css';
+@import 'plugins/iCheck/flat/_all.css';
+@import 'plugins/iCheck/line/_all.css';
+@import 'plugins/iCheck/polaris/polaris.css';
+@import 'plugins/iCheck/futurico/futurico.css';
+
+@import 'plugins/colorpicker/bootstrap-colorpicker.min.css';
+@import 'plugins/timepicker/bootstrap-timepicker.min.css';
+@import 'plugins/select2/select2.min.css';
+
 @import 'plugins/admin-lte/dist/css/AdminLTE.min.css';
 @import 'plugins/admin-lte/dist/css/skins/_all-skins.min.css';

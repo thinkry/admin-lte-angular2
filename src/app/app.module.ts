@@ -26,6 +26,9 @@ import { IconsComponent } from './pages/ui/icons.component';
 import { ModalsComponent } from './pages/ui/modals.component';
 import { SlidersComponent } from './pages/ui/sliders.component';
 import { TimelineComponent } from './pages/ui/timeline.component';
+import { AdvancedComponent } from './pages/forms/advanced.component';
+import { EditorsComponent } from './pages/forms/editors.component';
+import { GeneralComponent as FormGeneralComponent } from './pages/forms/general.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +52,10 @@ import { TimelineComponent } from './pages/ui/timeline.component';
     IconsComponent,
     ModalsComponent,
     SlidersComponent,
-    TimelineComponent
+    TimelineComponent,
+    AdvancedComponent,
+    EditorsComponent,
+    FormGeneralComponent
   ],
   imports: [
     BrowserModule,

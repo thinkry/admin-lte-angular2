@@ -20,6 +20,10 @@ import {IconsComponent} from "./pages/ui/icons.component";
 import {ModalsComponent} from "./pages/ui/modals.component";
 import {SlidersComponent} from "./pages/ui/sliders.component";
 import {TimelineComponent} from "./pages/ui/timeline.component";
+import {AdvancedComponent} from "./pages/forms/advanced.component";
+import {EditorsComponent} from "./pages/forms/editors.component";
+import { GeneralComponent as FormGeneralComponent } from './pages/forms/general.component';
+
 const routes: Routes = [
   {
     path: '',
@@ -96,6 +100,18 @@ const routes: Routes = [
       {
         path: 'ui/timeline',
         component: TimelineComponent
+      },
+      {
+        path: 'forms/advanced',
+        component: AdvancedComponent
+      },
+      {
+        path: 'forms/editors',
+        component: EditorsComponent
+      },
+      {
+        path: 'forms/general',
+        component: FormGeneralComponent
       },
       {
         path: 'tables/simple',
